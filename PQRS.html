@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>PQRS - Plastisol</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pqrs.css"> <!-- Nueva hoja de estilos -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header full-box">
+        <div class="header-brand text-center full-box">
+            <a href="index.html">
+                <img src="./assets/img/logo.png" alt="logo" class="img-fluid">
+            </a>
+        </div>
+        <div class="header-options full-box">
+            <nav class="header-navbar full-box poppins-regular font-weight-bold">
+                <ul class="list-unstyled full-box">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="menu.html">Historia</a></li>
+                    <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+                    <li><a href="pqrs.html">PQRS</a></li> <!-- Enlace a PQRS -->
+                    <li><a href="registration.html">Inicio de sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner PQRS -->
+    <div class="banner" style="height: 40vh;">
+        <div class="banner-body">
+            <h3 class="text-uppercase">PQRS</h3>
+            <p>Preguntas, Quejas, Reclamos y Sugerencias</p>
+        </div>
+    </div>
+
+    <!-- Contenido PQRS -->
+    <section id="pqrs" class="container container-web-page">
+        <h3 class="text-center text-uppercase poppins-regular font-weight-bold">¿Cómo podemos ayudarte?</h3>
+        <form class="pqrs-form">
+            <div class="form-group">
+                <label for="nombre" class="font-weight-bold">Nombre:</label>
+                <input type="text" id="nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="font-weight-bold">Email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje" class="font-weight-bold">Mensaje:</label>
+                <textarea id="mensaje" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <ul class="list-unstyled">
+                        <li><h5 class="font-weight-bold"><i class="far fa-copyright"></i> Team Plastisol</h5></li>
+                        <li> Todos los derechos reservados </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="list-unstyled">
+                        <li><h5 class="font-weight-bold"> Nosotros </h5></li>
+                        <li><i class="fas fa-map-marker-alt fa-fw"></i> Plastisol</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="list-unstyled">
+                        <li><h5 class="font-weight-bold">Síguenos en:</h5></li>
+                        <li><a href="https://es-la.facebook.com/" class="footer-link" target="_blank"><i class="fab fa-facebook fa-fw"></i> Facebook</a></li>
+                        <li><a href="https://www.youtube.com/" class="footer-link" target="_blank"><i class="fab fa-youtube fa-fw"></i> Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MDBootstrap V5 -->
+    <script src="./js/mdb.min.js"></script>
+    <!-- General scripts -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
